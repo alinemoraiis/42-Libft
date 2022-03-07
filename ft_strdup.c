@@ -8,7 +8,7 @@
 /*   Created: 2022/02/21 16:09:18 by ados-rei          #+#    #+#             */
 /*   Updated: 2022/02/21 16:10:06 by ados-rei         ###   ########.fr       */
 /*                                                                            */
-/*   -> Allocates sufficiente memory for a copy of the string s1, does the    */
+/*   -> Allocates sufficient memory for a copy of the string s1, does the    */
 /*      copy, and returns a pointer to it.                                    */
 /* ************************************************************************** */
 
