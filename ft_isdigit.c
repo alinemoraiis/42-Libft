@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ados-rei <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: ados-rei <ados-rei@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/17 12:28:47 by ados-rei          #+#    #+#             */
 /*   Updated: 2022/02/17 12:33:25 by ados-rei         ###   ########.fr       */

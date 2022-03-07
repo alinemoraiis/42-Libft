@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ados-rei <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: ados-rei <ados-rei@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/17 12:08:36 by ados-rei          #+#    #+#             */
 /*   Updated: 2022/02/17 12:26:28 by ados-rei         ###   ########.fr       */
