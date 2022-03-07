@@ -11,9 +11,9 @@
 /* ************************************************************************** */
 
 /* ****************************************************************** */
-/*   -> Check if the character is a decimal digit.			          */
+/*   -> Check if the character is a decimal digit.		      */
 /*   -> Return: zero for non-digit and return non-zero (1) for digit. */
-/*   -> man isdigit													  */
+/*   -> man isdigit						      */
 /* ****************************************************************** */
 
 #include "libft.h"
