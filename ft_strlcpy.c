@@ -9,7 +9,7 @@
 /*   Updated: 2022/02/17 16:19:27 by ados-rei         ###   ########.fr       */
 /*                                                                            */
 /*   -> Copies up to n - 1 characters from string src to dest.                */
-/*   -> Return the total lenght of the string the function tried to create,   */
+/*   -> Return the total length of the string the function tried to create,   */
 /*      it means the lenght of src.                                           */
 /* ************************************************************************** */
 
