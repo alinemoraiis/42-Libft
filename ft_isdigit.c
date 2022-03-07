@@ -7,14 +7,11 @@
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/17 12:28:47 by ados-rei          #+#    #+#             */
 /*   Updated: 2022/02/17 12:33:25 by ados-rei         ###   ########.fr       */
-/*                                                                            */
+/*																 			  */
+/*   -> Check if the character is a decimal digit.							  */
+/*   -> Return: zero for non-digit and return non-zero (1) for digit. 		  */
+/*   -> man isdigit															  */
 /* ************************************************************************** */
-
-/* ****************************************************************** */
-/*   -> Check if the character is a decimal digit.			          */
-/*   -> Return: zero for non-digit and return non-zero (1) for digit. */
-/*   -> man isdigit													  */
-/* ****************************************************************** */
 
 #include "libft.h"
 
@@ -25,9 +22,7 @@ int	ft_isdigit(int c)
 	return (0);
 }
 
-/****************/
-/*    TESTING   */
-/****************/
+/*   TESTING   */
 /*#include <stdio.h>
 int main ()
 {
