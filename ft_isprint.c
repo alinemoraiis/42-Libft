@@ -1,24 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isascii.c                                       :+:      :+:    :+:   */
+/*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ados-rei <ados-rei@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/14 15:58:43 by ados-rei          #+#    #+#             */
-/*   Updated: 2022/02/17 12:54:05 by ados-rei         ###   ########.fr       */
+/*   Created: 2022/02/14 16:14:45 by ados-rei          #+#    #+#             */
+/*   Updated: 2022/02/17 12:59:35 by ados-rei         ###   ########.fr       */
 /*                                                                            */
-/*   -> Check if the character is an ASCII.                                   */
-/*   -> Return: zero for non-ASCII characters and non-zero for ASCII          */
-/*      characters.                                                           */
-/*   -> man isascii                                                           */
+/*   -> Check if the character is a printable character.                      */
+/*   -> Return: zero for non-printable and non-zero for printable characters. */
+/*   -> man isprint                                                           */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isascii(int c)
+int	ft_isprint(int c)
 {
-	if (c >= 0 && c <= 127)
+	if (c >= 32 && c <= 126)
 		return (1);
 	return (0);
 }
@@ -27,8 +26,8 @@ int	ft_isascii(int c)
 /*#include <stdio.h>
 int main ()
 {
-	printf("%d\n", ft_isascii('A'));
-	printf("%d\n", ft_isascii('!'));
-	printf("%d\n", ft_isascii('0'));
-	printf("%d\n", ft_isascii(128));
+	printf("%d\n", ft_isprint(' '));
+	printf("%d\n", ft_isprint('z'));
+	printf("%d\n", ft_isprint('!'));
+	printf("%d\n", ft_isprint(1));
 }*/

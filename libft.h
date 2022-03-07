@@ -3,16 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ados-rei <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: ados-rei <ados-rei@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/17 12:04:36 by ados-rei          #+#    #+#             */
 /*   Updated: 2022/03/07 14:05:15 by ados-rei         ###   ########.fr       */
 /*                                                                            */
+/*   -> Header file with all functions declarations of my Libft library.      */
 /* ************************************************************************** */
-
-/* *********************************************************************** */
-/*   -> Header file with all functions declarations of my Libft library.   */
-/* *********************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
