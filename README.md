@@ -2,7 +2,7 @@
 - This project is about coding my own C library. It is compound by a set of functions based on Libc library, some additional functions and a bonus part that manipulates linked list.
 
 ## :bowtie: Files
-- Makefile
+- **Makefile**: defines set of tasks (compile all functions) to be executed.
 - **libft.h**: header file with all declarated functions.
 
 ## :bowtie: Libc functions
@@ -38,8 +38,21 @@
 - **ft_itoa**: allocates memory and convert the int received as an argument to string.
 - **ft_strmapi**: applies the function f to each character of the string s. Returns a new string resulting from application of f.
 - **ft_striteri**: applies the function f to each character of the string passed as argument. Each character is passed by address to f to be modified if necessary.
+- **ft_putchar_fd**: outputs the character c to the given file descriptor.
+- **ft_putstr_fd**: outputs the string s to the given file descriptor.
+- **ft_putendl_fd**: outputs the string s to the given file descriptor followed by a newline.
+- **ft_putnbr_fd**: outputs the integer n to the given file descriptor.
 
-## :bowtie: Bonus functions
+## :bowtie: Bonus functions (linked list)
+- **ft_lstnew**: allocates memory and returns a new node.
+- **ft_lstadd_front**: adds the node new at the beginning of the list.
+- **ft_lstsize**: counts the number of nodes in a list.
+- **ft_lstlast**: returns the last node of the list.
+- **ft_lstadd_back**: adds the node new at the end of the list.
+- **ft_lstdelone**: takes as a parameter a node and frees the memory of the node’s content using the function ’del’ given as a parameter and free the node.
+- **ft_lstclear**: deletes and frees the given node and every successor of that node, using the function del and free(3).
+- **ft_lstiter**: iterates the list lst and applies the function f on the content of each node.
+- **ft_lstmap**: iterates the list lst and applies the function f on the content of each node.
 
 ## :bowtie: Used tests
 - [libftTester](https://github.com/Tripouille/libftTester)
