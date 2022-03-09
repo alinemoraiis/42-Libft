@@ -28,7 +28,7 @@
 - **ft_strnstr**: locates the first occurrence of the string needle in the string haystack.
 - **ft_atoi**: converts the string str to int.
 - **ft_calloc**: allocates enough space for count object that are size bytes of memory each. Return a pointer to the allocated memory.
-- **ft_strdup**: allocates sufficient memory for a copu of the string s1, does the copy, and returns a pointer to it.  
+- **ft_strdup**: allocates sufficient memory for a copu of the string s1, does the copy, and returns a pointer to it.
 
 ## :bowtie: Additional functions
 - **ft_substr**: allocates memory and returns a new substring from the string s. The substring begins at index start and is of maximum size len.
@@ -36,6 +36,8 @@
 - **ft_strtrim**: allocates memory and returns a copy of s1 with the characters specified in set removed from the beginning and the end of the string.
 - **ft_split**: allocates memory and returns an array of strings obtained by splitting s using the character c as a delimiter.    
 - **ft_itoa**: allocates memory and convert the int received as an argument to string.
+- **ft_strmapi**: applies the function f to each character of the string s. Returns a new string resulting from application of f.
+- **ft_striteri**: applies the function f to each character of the string passed as argument. Each character is passed by address to f to be modified if necessary.
 
 ## :bowtie: Bonus functions
 
